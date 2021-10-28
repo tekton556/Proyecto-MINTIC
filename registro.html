@@ -1,0 +1,100 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Registro</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos.css"> 
+
+  </head>
+  <body>
+      <form id="form_registro_usuario" action="" method="" >
+        <div class="logotipo">
+            <img src="C:\Users\jfur\Desktop\min tic\ciclo 3\imagenes\formulario.png" height="90" width="150">
+        </div>
+        <div class="usuario"> 
+            <p class="user">
+              <label for="inputEmail4" class="form-label">Usuario</label>
+              <input id="in_usuario" name="in_usuario" type="text"  placeholder="usuario">
+            </p>
+        </div>
+        <div class="Contraseña">
+            <p class="cont">
+                <label for="inputPassword4" class="form-label">Contraseña</label>
+                <input id="in_contrasena" type="text" >
+            </p>
+        </div>
+          <div class="col">
+            <p class="paf">
+                <label for="inputAddress" class="form">Verificar Contraseña</label>
+                <input  class="label" type="password">
+            </p>
+        </div>
+        <div class="col">
+            <p class="paf">
+                <label class="form">tipo de usuario</label>
+                <select id="inputState" class="for" >
+                  <option selected>Buscar...</option>
+                  <option>Arrendador</option>
+                  <option>Arrendatario</option>
+                </select>
+            </p>
+        </div>
+        <div class="col">
+            <p class="paf">
+                <label for="inputState" class="label">Departamento</label>
+                <select id="inputState" class="form"  >
+                    <option selected>Buscar...</option>
+                    <option>Amazonas</option>
+                    <option>Antioquía</option>
+                    <option>Arauca</option>
+                    <option>Atlántico</option>
+                    <option>Bolívar</option>
+                    <option>Boyacá </option>
+                    <option>Caldas</option>
+                    <option>Caquetá</option>
+                    <option>Casanare</option>
+                    <option>Cauca</option>
+                    <option>Cesar</option>
+                    <option>Chocó</option>
+                    <option>Córdoba</option>
+                    <option>Cundinamarca</option>
+                    <option>Guainía</option>
+                    <option>Guaviare</option>
+                    <option>Huila</option>
+                    <option>La Guajira</option>
+                    <option>Magdalena</option>
+                    <option>Meta</option>
+                    <option>Nariño</option>
+                    <option>Norte de Santander</option>
+                    <option>Putumayo</option>
+                    <option>Quindío</option>
+                    <option>Risaralda</option>
+                    <option>San Andrés y Providencia</option>
+                    <option>Santander</option>
+                    <option>Sucre</option>
+                    <option>Tolima</option>
+                    <option>Valle del Cauca</option>
+                    <option>Vaupés</option>
+                    <option>Vichada</option>
+                </select>
+            </p>
+        </div>
+        <div class="col2">
+          <div class="form-check">
+            <p class="paf">
+                <input class="label" type="checkbox" id="gridCheck">
+                <label class="form" for="gridCheck">
+                  Check me out
+                </label>
+            </p>
+          </div>
+        </div>
+        <div class="col-1">
+          <button id="btn_enviar_registro"  type="submit" >Enviar Registro</button>
+        </div>
+    </form>
+    <script src="validaciones.js"></script>
+  </body>
+</html>

@@ -1,0 +1,116 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+div#gen{
+    width: 960px;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    height: 500px;
+    bottom: auto;
+    background-color: #FFF2F3;;
+}
+div#Navegacion{
+    width: 300px;
+    height: 500px;
+    background-color:#D7FBFF;
+    float: left;
+}
+p.logo{
+    height:310px;
+    padding:50px;
+}
+p.boton{
+    text-align: center;
+}
+button#btn_irRegistro{
+    background-color:white;
+    width: 100px;
+    height: 50px;
+}
+div#pres{
+    height:500px;
+    float:right;
+    width:660px;  
+}
+div#info{
+    height:40%;
+    float:right;
+
+    width:660px;  
+}
+h1.titulo{
+    margin-top: 20px;
+    text-align: center;
+}
+p.desc{
+    text-emphasis: center;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+div.card_1{
+    float:left;
+    margin-left:50px
+
+}
+div.card_2{
+    float:left;
+    margin-left:20px;
+}
+/* formulario */
+form#form_registro_usuario{
+    background-color: #D6EAF8;
+    width: 560px;
+    height: 600px;
+    margin: 400px;
+    margin-top: 50px;
+}
+div.usuario{
+    height:50px;
+}
+input#in_usuario{
+    margin-top:10px;
+    margin-left:25px;
+    border:none;
+}
+label.form-label{
+    margin-left:5px;
+    
+}
+p.user{
+    text-align: center;
+}
+input#in_contrasena{
+    margin-left:25px;
+    margin-top:10px
+}
+p.cont{
+    text-align: center;
+}
+div.col{
+    height:80px;
+}
+p.paf{
+    text-align:center;
+}
+input.label{
+    margin-left:25px;
+    margin-top:10px;
+}
+div.col-1{
+    width:560px;
+     display: flex;
+    align-items: center;
+     justify-content: center;
+}
+button#btn_enviar_registro{
+    margin-top:10px;
+}
+div.logotipo{
+    width:560px;
+ display: flex;
+align-items: center;
+ justify-content: center;
+}
